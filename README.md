@@ -1,4 +1,6 @@
-## Hello, welcome to my profile. 👋
+<img width="800" height="150" alt="your_cool_intro (5)" src="https://github.com/user-attachments/assets/e8bfea4d-f845-4e7e-85bd-3bf7ebc8d401" />
+
+
 
 <!--
 **henriheian/henriheian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
