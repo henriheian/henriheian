@@ -62,20 +62,13 @@ I love trying new things and **always finish what I start**, no matter how long 
 ```
 
 ---
----
-
-### 🔥 My Stats
-
-![streak graph](https://streak-stats.demolab.com?user=henriheian&locale=en&mode=daily&theme=dark&hide_border=false&borderUradius=5&order=3)
-
----
----
 
 ### 🔥 My Stats
 
 ![streak graph](https://streak-stats.demolab.com?user=henriheian&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3)
 
 ---
+
 ![Final GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZvNDdpcXN4b3B5bTEyanQ2aTFhamI0bnYwNjgybWh3bDk3YTYxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILx3tjWgaP0cjUf0Wx/giphy.gif)
 
 <!--
