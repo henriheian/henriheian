@@ -38,6 +38,15 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ### 🛠 Ferramentas / Tools
 
+- VS Code
+- Git & GitHub
+- Linux (Ubuntu)
+- Arduino IDE
+- Digital Logic Sim
+- MySQL
+- Blender
+- AutoCAD
+
 ---
 
 ```
