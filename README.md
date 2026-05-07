@@ -17,10 +17,11 @@
 
 ### ⚡ Linguagens / Languages
 
-- Python
-- Java
-- Portugol
-- Arduino
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+</p>
 
 ### 🛠 Ferramentas / Tools
 
