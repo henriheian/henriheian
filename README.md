@@ -70,7 +70,9 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
-![Final GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZvNDdpcXN4b3B5bTEyanQ2aTFhamI0bnYwNjgybWh3bDk3YTYxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILx3tjWgaP0cjUf0Wx/giphy.gif)
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZvNDdpcXN4b3B5bTEyanQ2aTFhamI0bnYwNjgybWh3bDk3YTYxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILx3tjWgaP0cjUf0Wx/giphy.gif" alt="Final GIF" />
+</p>
 
 <!--
 **henriheian/henriheian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
