@@ -2,6 +2,19 @@
 
 ---
 
+```
+╔══════════════════════════════════════════════════════════════╗
+║     PROTOCOL — INICIADO                             ║
+║                                                              ║
+║  >> Agente   : Cauê Felipe Zaffalon Guilherme                        ║
+║  >> Codinome : Kai                             ║
+║  >> Base     : Londrina, Paraná, Brasil                     ║
+║  >> Missão   : Ciência da Computação / UNIFIL               ║
+║  >> Sistemas : Programação · Robótica · Eletrônica          ║
+║  >> Status   : EM CAMPO — OPERACIONAL ..................[OK] ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
 ### ⚡ Linguagens / Languages
 
 - Python
