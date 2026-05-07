@@ -51,8 +51,8 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
-║  🖥  DIGITAL LOGIC SIM — BUILD LOG                               ║
-║  Construindo computadores funcionais do zero, bit a bit          ║
+║                🖥  DIGITAL LOGIC SIM — BUILD LOG                  ║
+║        Construindo computadores funcionais do zero, bit a bit     ║
 ╠═══════════════════════════════════════════════════════════════════╣
 ║  [████████████████████████]   8-BIT CPU ............. [CONCLUÍDO] ║
 ║  [████████████████████████]  16-BIT CPU ............. [CONCLUÍDO] ║
