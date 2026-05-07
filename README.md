@@ -66,10 +66,6 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
-![Jurassic Park GIF](https://media1.tenor.com/m/rnFdKSfWyrMAAAAC/jurassic-park-jurassic-park-3.gif)
-
-![Final GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3cwcHU0Zmczbm01dWQ1N2ZvaXJueTU5eWt6eHc3bnZsZHBjc2dociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kg8eB8SOl2xGIFYOfE/giphy.gif)
-
 <!--
 **henriheian/henriheian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
