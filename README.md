@@ -2,19 +2,6 @@
 
 ---
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║     PROTOCOL — INICIADO                             ║
-║                                                              ║
-║  >> Agente   : Cauê Felipe Zaffalon Guilherme                        ║
-║  >> Codinome : Kai                             ║
-║  >> Base     : Londrina, Paraná, Brasil                     ║
-║  >> Missão   : Ciência da Computação / UNIFIL               ║
-║  >> Sistemas : Programação · Robótica · Eletrônica          ║
-║  >> Status   : EM CAMPO — OPERACIONAL ..................[OK] ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
 ### ⚡ Linguagens / Languages
 
 - Python
@@ -65,15 +52,6 @@ I love trying new things and **always finish what I start**, no matter how long 
 > da ULA à arquitetura completa. Do zero. Porta lógica por porta lógica.
 
 ---
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  "The future belongs to those who believe in the beauty of  ║
-║  their dreams."                                             ║
-║                                             — Eleanor Roosevelt ║
-╠══════════════════════════════════════════════════════════════╣
-╚══════════════════════════════════════════════════════════════╝
-```
 
 ![Thrgg GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGR4ZzZuZ2xoYnN4cmJlZnFhb2RicW1iOXcyN3FoZXdmMnNyNjNsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GfJ0Oc4N9AWjf3paOw/giphy.gif)
 
