@@ -15,20 +15,6 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-## `// PT-BR` — Quem sou eu?
-
-Oi! Sou o **Cauê Felipe Zaffalon Guilherme**, também conhecido como **Kai**. Estudante de **Ciência da Computação** na **UNIFIL**, Londrina, Brasil.
-
-Gosto de tentar coisas novas e **sempre termino o que começo**, não importa quanto tempo demore. Sou apaixonado por carros, programação, robótica, eletrônica, filmes e jogos. Aqui você encontra projetos reais, experimentos e os commits que contam minha jornada na computação.
-
-## `// EN-US` — Who am I?
-
-Hi! I'm **Cauê Felipe Zaffalon Guilherme**, also known as **Kai**. Computer Science student at **UNIFIL**, Londrina, Brazil.
-
-I love trying new things and **always finish what I start**, no matter how long it takes. Passionate about cars, programming, robotics, electronics, movies and games. Here you'll find real projects, experiments and the commits that define my journey in computing.
-
----
-
 ### ⚡ Linguagens / Languages
 
 - Python
@@ -49,6 +35,20 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
+## `// PT-BR` — Quem sou eu?
+
+Oi! Sou o **Cauê Felipe Zaffalon Guilherme**, também conhecido como **Kai**. Estudante de **Ciência da Computação** na **UNIFIL**, Londrina, Brasil.
+
+Gosto de tentar coisas novas e **sempre termino o que começo**, não importa quanto tempo demore. Sou apaixonado por carros, programação, robótica, eletrônica, filmes e jogos. Aqui você encontra projetos reais, experimentos e os commits que contam minha jornada na computação.
+
+## `// EN-US` — Who am I?
+
+Hi! I'm **Cauê Felipe Zaffalon Guilherme**, also known as **Kai**. Computer Science student at **UNIFIL**, Londrina, Brazil.
+
+I love trying new things and **always finish what I start**, no matter how long it takes. Passionate about cars, programming, robotics, electronics, movies and games. Here you'll find real projects, experiments and the commits that define my journey in computing.
+
+---
+
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
 ║  🖥  DIGITAL LOGIC SIM — BUILD LOG                               ║
@@ -63,10 +63,6 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 > Construí computadores funcionais de **8 a 64 bits** no Digital Logic Sim —
 > da ULA à arquitetura completa. Do zero. Porta lógica por porta lógica.
-
----
-
-### 🎮 Gaming
 
 ---
 
