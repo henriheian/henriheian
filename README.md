@@ -65,7 +65,7 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ### 🔥 My Stats
 
-![streak graph](https://streak-stats.demolab.com?user=henriheian&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3)
+![streak graph](https://streak-stats.demolab.com?user=henriheian&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3)
 
 ---
 
