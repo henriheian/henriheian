@@ -49,6 +49,8 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
+<div align="center">
+
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                🖥  DIGITAL LOGIC SIM — BUILD LOG                  ║
@@ -60,6 +62,8 @@ I love trying new things and **always finish what I start**, no matter how long 
 ║  [████████████████████████]  64-BIT CPU ............. [CONCLUÍDO] ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 ---
 
