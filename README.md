@@ -1,7 +1,5 @@
 <img width="800" height="150" alt="your_cool_intro (5)" src="https://github.com/user-attachments/assets/e8bfea4d-f845-4e7e-85bd-3bf7ebc8d401" />
 
-![Thrgg GIF](https://files.manuscdn.com/user_upload_by_module/session_file/310519663637508459/qDEyqcrUZWPNteVR.gif)
-
 ---
 
 ```
@@ -71,6 +69,8 @@ I love trying new things and **always finish what I start**, no matter how long 
 ╠══════════════════════════════════════════════════════════════╣
 ╚══════════════════════════════════════════════════════════════╝
 ```
+
+![Thrgg GIF](https://files.manuscdn.com/user_upload_by_module/session_file/310519663637508459/qDEyqcrUZWPNteVR.gif)
 
 <!--
 **henriheian/henriheian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
