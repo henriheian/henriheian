@@ -98,6 +98,14 @@ Here are some ideas to get you started:
 
 ### Progress
 
-![snake gif](https://github.com/samuel-franco/samuel-franco/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/samuel-franco/samuel-franco/blob/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/samuel-franco/samuel-franco/blob/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://github.com/samuel-franco/samuel-franco/blob/output/github-contribution-grid-snake.svg">
+</picture>
 
-[![readme](https://github-readme-stats.vercel.app/api/pin/?username=samuel-franco&repo=samuel-franco&theme=react)](https://github.com/samuel-franco/samuel-franco)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=samuel-franco&repo=samuel-franco&theme=tokyonight">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=samuel-franco&repo=samuel-franco&theme=react">
+  <img alt="samuel-franco repo pin" src="https://github-readme-stats.vercel.app/api/pin/?username=samuel-franco&repo=samuel-franco&theme=react">
+</picture>
