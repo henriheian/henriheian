@@ -93,3 +93,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+---
+
+### Progress
+
+![snake gif](https://github.com/samuel-franco/samuel-franco/blob/output/github-contribution-grid-snake.svg)
+
+[![readme](https://github-readme-stats.vercel.app/api/pin/?username=samuel-franco&repo=samuel-franco&theme=react)](https://github.com/samuel-franco/samuel-franco)
