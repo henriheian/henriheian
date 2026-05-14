@@ -83,7 +83,7 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ## 🎮 Bora se Divertir? Minecraft Block Breaker!
 
-Que tal uma pausa para quebrar alguns blocos? Clique no botão abaixo para jogar direto aqui no meu perfil! 
+Que tal uma pausa para quebrar alguns blocos? **Clique no botão abaixo para jogar direto aqui no meu perfil!** 
 
 <div align="center">
 
@@ -91,19 +91,7 @@ Que tal uma pausa para quebrar alguns blocos? Clique no botão abaixo para jogar
 
 **Clique nos blocos para quebrá-los até chegar na Obsidiana!**
 
-<details open>
-<summary><strong>🎮 CLIQUE AQUI PARA JOGAR! 🎮</strong></summary>
-
-<iframe 
-  src="minecraft_game.html" 
-  width="100%" 
-  height="800" 
-  style="border: 3px solid #333; border-radius: 10px; margin: 20px 0;"
-  frameborder="0"
-  allow="fullscreen">
-</iframe>
-
-</details>
+[![Jogar Minecraft Block Breaker](https://img.shields.io/badge/🎮_JOGAR_MINECRAFT_BLOCK_BREAKER-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white)](minecraft_game.html)
 
 **Progressão:** 🟫 Terra → ⬜ Pedra → ⚙️ Ferro → 💎 Diamante → 🟪 Obsidiana
 
