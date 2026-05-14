@@ -96,16 +96,11 @@ Here are some ideas to get you started:
 
 ---
 
-### Progress
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake.svg">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=henriheian&repo=henriheian&theme=tokyonight">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=henriheian&repo=henriheian&theme=react">
-  <img alt="henriheian repo pin" src="https://github-readme-stats.vercel.app/api/pin/?username=henriheian&repo=henriheian&theme=react">
-</picture>
+<div align="center">
+  <h3>🐍 Progress</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
