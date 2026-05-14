@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Block Breaker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .game-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .game-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .game-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-subtitle {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            gap: 20px;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .wall-container {
+            background: #f5f5f5;
+            border: 3px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wall {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            width: 100%;
+        }
+
+        .block {
+            width: 100%;
+            aspect-ratio: 1;
+            border: 3px solid #000;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 2.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.1s ease;
+            position: relative;
+            overflow: hidden;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .block:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+
+        .block:active {
+            transform: scale(0.95);
+        }
+
+        /* Blocos com cores diferentes */
+        .block.dirt {
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .block.stone {
+            background: linear-gradient(135deg, #808080 0%, #696969 100%);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .block.iron {
+            background: linear-gradient(135deg, #C0C0C0 0%, #A9A9A9 100%);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .block.diamond {
+            background: linear-gradient(135deg, #00FFFF 0%, #00CED1 100%);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .block.obsidian {
+            background: linear-gradient(135deg, #1A0033 0%, #2D0052 100%);
+            box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Animação de quebra */
+        @keyframes crack {
+            0% {
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+            50% {
+                opacity: 0.7;
+                transform: scale(1.1) rotate(5deg);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0.3) rotate(-10deg);
+            }
+        }
+
+        @keyframes particles {
+            0% {
+                opacity: 1;
+                transform: translate(0, 0) scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: translate(var(--tx), var(--ty)) scale(0);
+            }
+        }
+
+        .block.breaking {
+            animation: crack 0.5s ease-out forwards;
+        }
+
+        .particle {
+            position: absolute;
+            pointer-events: none;
+            animation: particles 0.6s ease-out forwards;
+        }
+
+        .message {
+            text-align: center;
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+            min-height: 30px;
+            font-weight: bold;
+        }
+
+        .message.success {
+            color: #00AA00;
+            font-size: 1.3em;
+        }
+
+        .message.progress {
+            color: #667eea;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-reset {
+            background: linear-gradient(135deg, #FF6B6B 0%, #EE5A52 100%);
+            color: white;
+            flex: 1;
+        }
+
+        .btn-reset:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 107, 107, 0.3);
+        }
+
+        .btn-reset:active {
+            transform: translateY(-1px);
+        }
+
+        .progression {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .progression-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .progression-item.active {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .progression-arrow {
+            color: #ccc;
+            font-size: 1.2em;
+        }
+
+        .progression-item.completed {
+            color: #00AA00;
+            text-decoration: line-through;
+        }
+
+        /* Responsivo */
+        @media (max-width: 600px) {
+            .game-container {
+                padding: 20px;
+            }
+
+            .game-title {
+                font-size: 1.8em;
+            }
+
+            .wall {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stats {
+                flex-direction: column;
+            }
+        }
+
+        /* Efeito de vibração */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        .shake {
+            animation: shake 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="game-title">⛏️ MINECRAFT BLOCK BREAKER ⛏️</div>
+            <div class="game-subtitle">Clique nos blocos para quebrá-los até chegar na Obsidiana!</div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Blocos Quebrados</div>
+                <div class="stat-value" id="blocksDestroyed">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Fase</div>
+                <div class="stat-value" id="currentPhase">1/5</div>
+            </div>
+        </div>
+
+        <div class="message" id="message">Comece a quebrar blocos!</div>
+
+        <div class="wall-container">
+            <div class="wall" id="wall"></div>
+        </div>
+
+        <div class="progression" id="progression"></div>
+
+        <div class="buttons">
+            <button class="btn-reset" onclick="resetGame()">🔄 REINICIAR JOGO</button>
+        </div>
+    </div>
+
+    <script>
+        const BLOCK_TYPES = [
+            { name: 'dirt', emoji: '🟫', label: 'Terra' },
+            { name: 'stone', emoji: '⬜', label: 'Pedra' },
+            { name: 'iron', emoji: '⚙️', label: 'Ferro' },
+            { name: 'diamond', emoji: '💎', label: 'Diamante' },
+            { name: 'obsidian', emoji: '🟪', label: 'Obsidiana' }
+        ];
+
+        let gameState = {
+            currentPhase: 0,
+            blocksDestroyed: 0,
+            gameWon: false
+        };
+
+        function initGame() {
+            gameState = {
+                currentPhase: 0,
+                blocksDestroyed: 0,
+                gameWon: false
+            };
+            renderWall();
+            updateStats();
+            updateProgression();
+            updateMessage('Comece a quebrar blocos!', 'progress');
+        }
+
+        function renderWall() {
+            const wall = document.getElementById('wall');
+            wall.innerHTML = '';
+
+            const blockType = BLOCK_TYPES[gameState.currentPhase];
+            for (let i = 0; i < 3; i++) {
+                const block = document.createElement('div');
+                block.className = `block ${blockType.name}`;
+                block.textContent = blockType.emoji;
+                block.onclick = () => breakBlock(block);
+                wall.appendChild(block);
+            }
+        }
+
+        function breakBlock(blockElement) {
+            if (gameState.gameWon) return;
+
+            blockElement.classList.add('breaking');
+            gameState.blocksDestroyed++;
+
+            // Criar partículas
+            createParticles(blockElement);
+
+            // Som visual (vibração)
+            blockElement.parentElement.classList.add('shake');
+            setTimeout(() => {
+                blockElement.parentElement.classList.remove('shake');
+            }, 300);
+
+            setTimeout(() => {
+                if (gameState.currentPhase < BLOCK_TYPES.length - 1) {
+                    gameState.currentPhase++;
+                    updateMessage(`Bloco ${gameState.currentPhase + 1} desbloqueado! 🎉`, 'progress');
+                    renderWall();
+                } else {
+                    gameState.gameWon = true;
+                    updateMessage('🎉 PARABÉNS! VOCÊ QUEBROU TODOS OS BLOCOS! 🎉', 'success');
+                }
+                updateStats();
+                updateProgression();
+            }, 500);
+        }
+
+        function createParticles(element) {
+            const rect = element.getBoundingClientRect();
+            const container = element.parentElement;
+
+            for (let i = 0; i < 8; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.textContent = BLOCK_TYPES[gameState.currentPhase].emoji;
+                
+                const angle = (Math.PI * 2 * i) / 8;
+                const velocity = 50 + Math.random() * 50;
+                const tx = Math.cos(angle) * velocity;
+                const ty = Math.sin(angle) * velocity;
+
+                particle.style.setProperty('--tx', `${tx}px`);
+                particle.style.setProperty('--ty', `${ty}px`);
+                particle.style.left = '50%';
+                particle.style.top = '50%';
+                particle.style.fontSize = '1.5em';
+
+                element.appendChild(particle);
+
+                setTimeout(() => particle.remove(), 600);
+            }
+        }
+
+        function updateStats() {
+            document.getElementById('blocksDestroyed').textContent = gameState.blocksDestroyed;
+            document.getElementById('currentPhase').textContent = `${gameState.currentPhase + 1}/${BLOCK_TYPES.length}`;
+        }
+
+        function updateProgression() {
+            const progression = document.getElementById('progression');
+            progression.innerHTML = '';
+
+            BLOCK_TYPES.forEach((block, index) => {
+                const item = document.createElement('div');
+                item.className = 'progression-item';
+                
+                if (index < gameState.currentPhase) {
+                    item.classList.add('completed');
+                } else if (index === gameState.currentPhase) {
+                    item.classList.add('active');
+                }
+
+                item.innerHTML = `<div>${block.emoji}</div><div style="font-size: 0.8em; margin-top: 5px;">${block.label}</div>`;
+                progression.appendChild(item);
+
+                if (index < BLOCK_TYPES.length - 1) {
+                    const arrow = document.createElement('div');
+                    arrow.className = 'progression-arrow';
+                    arrow.textContent = '→';
+                    progression.appendChild(arrow);
+                }
+            });
+        }
+
+        function updateMessage(text, className = '') {
+            const message = document.getElementById('message');
+            message.textContent = text;
+            message.className = `message ${className}`;
+        }
+
+        function resetGame() {
+            initGame();
+        }
+
+        // Iniciar o jogo
+        initGame();
+    </script>
+</body>
+</html>

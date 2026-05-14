@@ -78,3 +78,37 @@ I love trying new things and **always finish what I start**, no matter how long 
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZvNDdpcXN4b3B5bTEyanQ2aTFhamI0bnYwNjgybWh3bDk3YTYxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILx3tjWgaP0cjUf0Wx/giphy.gif" alt="Final GIF" />
 </p>
+
+---
+
+## 🎮 Bora se Divertir? Minecraft Block Breaker!
+
+Que tal uma pausa para quebrar alguns blocos? Clique no botão abaixo para jogar direto aqui no meu perfil! 
+
+<div align="center">
+
+### ⛏️ MINECRAFT BLOCK BREAKER ⛏️
+
+**Clique nos blocos para quebrá-los até chegar na Obsidiana!**
+
+<details open>
+<summary><strong>🎮 CLIQUE AQUI PARA JOGAR! 🎮</strong></summary>
+
+<iframe 
+  src="minecraft_game.html" 
+  width="100%" 
+  height="800" 
+  style="border: 3px solid #333; border-radius: 10px; margin: 20px 0;"
+  frameborder="0"
+  allow="fullscreen">
+</iframe>
+
+</details>
+
+**Progressão:** 🟫 Terra → ⬜ Pedra → ⚙️ Ferro → 💎 Diamante → 🟪 Obsidiana
+
+Divirta-se! 🎉
+
+</div>
+
+---
