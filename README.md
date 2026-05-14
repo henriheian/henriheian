@@ -81,26 +81,28 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
-## 🎮 Bora se Divertir? Minecraft Block Breaker!
+## 🎮 DESAFIO: Minecraft Clicker Challenge!
 
-Que tal uma pausa para quebrar alguns blocos? **Clique no botão abaixo para jogar!** 
+Você consegue chegar até a **Obsidiana**? Aceite o desafio e teste sua velocidade de clique!
 
-Um mini-jogo viciante onde você precisa quebrar blocos progressivamente até chegar na Obsidiana. Com animações suaves, efeitos visuais e um desafio que vai te deixar querendo jogar de novo!
+Um jogo viciante de clique único com resistência crescente, partículas, efeitos de rachadura e um desafio final épico.
 
 <div align="center">
 
-### ⛏️ MINECRAFT BLOCK BREAKER ⛏️
+### ⛏️ CLICKER CHALLENGE ⛏️
 
-**Clique nos blocos para quebrá-los até chegar na Obsidiana!**
+**Clique no bloco central para minerar!**
 
 #### 🔒 Jogo 100% Seguro
 ✅ Sem downloads | ✅ Sem vírus | ✅ Sem coleta de dados | ✅ HTTPS seguro
 
-[![Jogar Minecraft Block Breaker](https://img.shields.io/badge/🎮_JOGAR_MINECRAFT_BLOCK_BREAKER-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white)](https://files.manuscdn.com/user_upload_by_module/session_file/310519663637499657/DubMYowHwzcaBBaq.html)
+[![Jogar Minecraft Clicker Challenge](https://img.shields.io/badge/🎮_JOGAR_CLICKER_CHALLENGE-FFD700?style=for-the-badge&logo=gamepad&logoColor=black)](https://files.manuscdn.com/user_upload_by_module/session_file/310519663637499657/TOcBeEdvmuxVMCVa.html)
 
-**Progressão:** 🟫 Terra → ⬜ Pedra → ⚙️ Ferro → 💎 Diamante → 🟪 Obsidiana
+**Níveis:** 🟫 Terra → ⬜ Pedra → ⚙️ Ferro → 💰 Ouro → 💎 Diamante → 🟪 Obsidiana
 
-Divirta-se! 🎉
+**Dificuldade:** ⚡ Crescente!
+
+Divirta-se e mostre que você é um mestre da mineração! 🎉
 
 </div>
 
