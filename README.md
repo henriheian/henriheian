@@ -93,7 +93,10 @@ Um mini-jogo viciante onde você precisa quebrar blocos progressivamente até ch
 
 **Clique nos blocos para quebrá-los até chegar na Obsidiana!**
 
-[![Jogar Minecraft Block Breaker](https://img.shields.io/badge/🎮_JOGAR_MINECRAFT_BLOCK_BREAKER-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white)](https://files.manuscdn.com/user_upload_by_module/session_file/310519663637499657/ayKrTimRvQEsyYwJ.html)
+#### 🔒 Jogo 100% Seguro
+✅ Sem downloads | ✅ Sem vírus | ✅ Sem coleta de dados | ✅ HTTPS seguro
+
+[![Jogar Minecraft Block Breaker](https://img.shields.io/badge/🎮_JOGAR_MINECRAFT_BLOCK_BREAKER-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white)](https://files.manuscdn.com/user_upload_by_module/session_file/310519663637499657/DubMYowHwzcaBBaq.html)
 
 **Progressão:** 🟫 Terra → ⬜ Pedra → ⚙️ Ferro → 💎 Diamante → 🟪 Obsidiana
 
