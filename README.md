@@ -81,74 +81,23 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
-## 🎮 Minecraft Block Breaker (In-README Edition)
+## 🎮 Bora se Divertir? Minecraft Block Breaker!
 
-**Clique nos blocos para minerar! Consegue chegar até a Obsidiana?**
+Que tal uma pausa para quebrar alguns blocos? **Clique no botão abaixo para jogar!** 
+
+Um mini-jogo viciante onde você precisa quebrar blocos progressivamente até chegar na Obsidiana. Com animações suaves, efeitos visuais e um desafio que vai te deixar querendo jogar de novo!
 
 <div align="center">
 
-<!-- CAMADA 1: TERRA -->
-<details>
-<summary>
-  <img src="https://img.shields.io/badge/CLIQUE_PARA_MINERAR-TERRA_🟫-8B4513?style=for-the-badge" />
-  <br><br>
-  <img src="https://raw.githubusercontent.com/p1k0chu/minecraft-assets/master/assets/minecraft/textures/block/dirt.png" alt="Terra" width="80" />
-</summary>
+### ⛏️ MINECRAFT BLOCK BREAKER ⛏️
 
-  <!-- CAMADA 2: PEDRA -->
-  <details>
-  <summary>
-    <img src="https://img.shields.io/badge/QUEBROU!_AGORA_MINERE-PEDRA_⬜-808080?style=for-the-badge" />
-    <br><br>
-    <img src="https://raw.githubusercontent.com/p1k0chu/minecraft-assets/master/assets/minecraft/textures/block/stone.png" alt="Pedra" width="80" />
-  </summary>
+**Clique nos blocos para quebrá-los até chegar na Obsidiana!**
 
-    <!-- CAMADA 3: FERRO -->
-    <details>
-    <summary>
-      <img src="https://img.shields.io/badge/BOA!_AGORA_MINERE-FERRO_⚙️-A9A9A9?style=for-the-badge" />
-      <br><br>
-      <img src="https://raw.githubusercontent.com/p1k0chu/minecraft-assets/master/assets/minecraft/textures/block/iron_ore.png" alt="Ferro" width="80" />
-    </summary>
+[![Jogar Minecraft Block Breaker](https://img.shields.io/badge/🎮_JOGAR_MINECRAFT_BLOCK_BREAKER-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white)](https://henriheian.github.io/henriheian/)
 
-      <!-- CAMADA 4: DIAMANTE -->
-      <details>
-      <summary>
-        <img src="https://img.shields.io/badge/QUASE_LÁ!_MINERE-DIAMANTE_💎-00FFFF?style=for-the-badge" />
-        <br><br>
-        <img src="https://raw.githubusercontent.com/p1k0chu/minecraft-assets/master/assets/minecraft/textures/block/diamond_ore.png" alt="Diamante" width="80" />
-      </summary>
+**Progressão:** 🟫 Terra → ⬜ Pedra → ⚙️ Ferro → 💎 Diamante → 🟪 Obsidiana
 
-        <!-- CAMADA 5: OBSIDIANA -->
-        <details>
-        <summary>
-          <img src="https://img.shields.io/badge/DESAFIO_FINAL!_MINERE-OBSIDIANA_🟪-1A0033?style=for-the-badge" />
-          <br><br>
-          <img src="https://raw.githubusercontent.com/p1k0chu/minecraft-assets/master/assets/minecraft/textures/block/obsidian.png" alt="Obsidiana" width="80" />
-        </summary>
-
-          <!-- VITÓRIA -->
-          <div align="center">
-            <br>
-            <img src="https://img.shields.io/badge/🎉_VOCÊ_VENCEU!_🎉-PARABÉNS-00AA00?style=for-the-badge" />
-            <br><br>
-            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/v1.Y2lkPTc5MGI3NjExbmZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/100/giphy.gif" alt="Victory" width="150" />
-            <br>
-            <p><strong>Você é um mestre da mineração!</strong></p>
-            <br>
-            <a href="https://github.com/henriheian/henriheian">
-              <img src="https://img.shields.io/badge/🔄_REINICIAR_JOGO-FF6B6B?style=for-the-badge" />
-            </a>
-          </div>
-
-        </details>
-      </details>
-    </details>
-  </details>
-</details>
-
-<br>
-<p align="center"><i>Dica: Clique nos nomes dos blocos para minerar!</i></p>
+Divirta-se! 🎉
 
 </div>
 
