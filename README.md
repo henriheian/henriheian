@@ -75,27 +75,6 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
-<p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZvNDdpcXN4b3B5bTEyanQ2aTFhamI0bnYwNjgybWh3bDk3YTYxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILx3tjWgaP0cjUf0Wx/giphy.gif" alt="Final GIF" />
-</p>
-
-<!--
-**henriheian/henriheian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
----
-
 <div align="center">
   <h3>🐍 Progress</h3>
   <picture>
