@@ -75,11 +75,6 @@ I love trying new things and **always finish what I start**, no matter how long 
 
 ---
 
-<div align="center">
-  <h3>🐍 Progress</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/henriheian/henriheian/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZvNDdpcXN4b3B5bTEyanQ2aTFhamI0bnYwNjgybWh3bDk3YTYxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILx3tjWgaP0cjUf0Wx/giphy.gif" alt="Final GIF" />
+</p>
